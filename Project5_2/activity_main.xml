@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!-- 테이블 레이아웃 -->
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
-
-    <TableRow>
+    
+    <!-- 1행 -->
+    <TableRow> 
         <EditText
             android:id="@+id/Edit1"
             android:layout_span="5"
@@ -14,6 +16,7 @@
             android:hint="숫자1 입력" />
     </TableRow>
 
+    <!-- 2행 -->
     <TableRow>
         <EditText
             android:id="@+id/Edit2"
@@ -22,6 +25,7 @@
             android:hint="숫자2 입력" />
     </TableRow>
 
+    <!-- 3행 -->
     <TableRow>
         <Button
             android:id="@+id/BtnNum0"
@@ -45,6 +49,7 @@
             android:text="4" />
     </TableRow>
 
+    <!-- 4행 -->
     <TableRow>
         <Button
             android:id="@+id/BtnNum5"
@@ -68,6 +73,7 @@
             android:text="9" />
     </TableRow>
 
+    <!-- 5행 -->
     <TableRow>
         <Button
             android:id="@+id/BtnAdd"
@@ -76,6 +82,7 @@
             android:layout_weight="1"
             android:text="더하기" />
     </TableRow>
+    <!-- 6행 -->
     <TableRow>
         <Button
             android:id="@+id/BtnSub"
@@ -84,6 +91,7 @@
             android:layout_weight="1"
             android:text="뺴기" />
     </TableRow>
+    <!-- 7행 -->
     <TableRow>
         <Button
             android:id="@+id/BtnMul"
@@ -92,6 +100,7 @@
             android:layout_weight="1"
             android:text="곱하기" />
     </TableRow>
+    <!-- 8행 -->
     <TableRow>
         <Button
             android:id="@+id/BtnDiv"
@@ -101,6 +110,7 @@
             android:text="나누기" />
     </TableRow>
 
+    <!-- 9행 -->
     <TableRow>
         <TextView
             android:id="@+id/TextRsult"
